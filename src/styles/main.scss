@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Cambay";
+  src: url("./fonts/Cambay/Cambay-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("./fonts/PT_Sans/PTSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+nav {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-column-gap: 10vw;
+  height: 10vh;
+
+  h3 {
+    font-family: "Cambay";
+    font-size: 25px;
+  }
+}
+
+.alternate-links {
+  max-width: 50vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  background-color: #ba5429;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: -10px;
+  padding: 10px 50px;
+}
+
+.btn a {
+  color: white;
+  margin: auto 0;
+}
+
+.above-fold {
+  height: 85vh;
+
+  h3 {
+    font-family: "PT Sans";
+    font-size: 38px;
+    font-weight: 100;
+    text-align: center;
+    max-width: 37.5vw;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    margin-left: 5vw;
+  }
+
+  .hollow-btn {
+    background-color: white;
+    color: black;
+    border: 3px solid #ba5429;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  a h3 {
+    width: max-content;
+    padding: 5px 40px;
+    border-radius: 40px;
+    font-family: "Cambay";
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .filled-btn {
+    background-color: #ba5429;
+    color: white;
+  }
+  .abv-fold-btns {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    margin-left: 10vw;
+  }
+}
+
+.pic {
+  width: 50vw;
+  height: 50vh;
+  margin: 2vh 2vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.science-svg {
+  background-image: url("../imgs/undraw_science_fqhl.svg");
+  float: right;
+}
