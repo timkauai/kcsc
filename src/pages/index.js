@@ -28,12 +28,26 @@ const IndexPage = () => (
         </Link>
       </div>
     </div>
-    <div>
-      <div>
-        <h3> Sign up for the newsletter </h3> <p> Form goes here </p>
+    <div className="green-section split-2">
+      <div className="newsletter">
+        <h3> sign up for the newsletter </h3> <p> Form goes here </p>
       </div>
-      <div>
-        <h3> Check us out on social media </h3> <div> all socials go here </div>
+      <div className="socials">
+        <h3> check us out on social media </h3>{" "}
+        <div className="soc-links">
+          <a href="">
+            <h3>insta</h3>
+          </a>
+          <a href="">
+            <h3>facebook</h3>
+          </a>
+          <a href="">
+            <h3>twitter</h3>
+          </a>
+          <a href="">
+            <h3>LinkedIn</h3>
+          </a>
+        </div>
       </div>
     </div>
     <div id="projects">
@@ -56,7 +70,7 @@ const IndexPage = () => (
         </div>{" "}
       </div>{" "}
     </div>{" "}
-    <div>
+    <div className="green-section">
       <div> an image </div>{" "}
       <h3> A Science Center Bringing Science & Community Together </h3>{" "}
     </div>{" "}
@@ -70,14 +84,14 @@ const IndexPage = () => (
         <h3> Sign Up for the Newsletter </h3> <p> here is the form </p>{" "}
       </div>{" "}
     </div>{" "}
-    <div>
+    <div className="green-section">
       <h3> Upcoming Events and Activities </h3>{" "}
       <b> Currently no upcoming events! </b>{" "}
     </div>{" "}
     <div>
       A SPECIAL SECTION TO POST ABOUT HOW AWESOME WE ARE WITH SOME COOL PICS{" "}
     </div>{" "}
-    <div>
+    <div className="green-section">
       <h3> Partners and Afflictions </h3>{" "}
       <p> Wow look at all of these people we have affiliations with </p>{" "}
     </div>{" "}

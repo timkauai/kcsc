@@ -12,6 +12,11 @@
   font-style: normal;
 }
 
+h3 {
+  font-family: "Cambay";
+  font-weight: 100;
+}
+
 nav {
   margin-top: 5vh;
   display: grid;
@@ -22,6 +27,7 @@ nav {
   h3 {
     font-family: "Cambay";
     font-size: 25px;
+    font-weight: bold;
   }
 }
 
@@ -105,4 +111,46 @@ nav a {
 .science-svg {
   background-image: url("../imgs/undraw_science_fqhl.svg");
   float: right;
+}
+
+.green-section {
+  background-color: #7ba734;
+  margin-left: -10vw;
+  padding-left: 11vw;
+  margin-right: -10vw;
+  padding-right: 11vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.split-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.socials {
+  border-left: 3px solid #000;
+  h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .soc-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    a {
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+      font-size: 20px;
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+.newsletter {
+  h3 {
+    font-size: 25px;
+    text-align: center;
+  }
 }
