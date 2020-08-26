@@ -82,17 +82,30 @@ const IndexPage = () => (
     </div>{" "}
     <div className="newsletter-section">
       <h1 className="title"> The Newsletter </h1> <h3> Past Issues </h3>{" "}
-      <div>
-        <Link> July 2020 </Link> <Link> April 2020 </Link>{" "}
-        <Link> January 2020 </Link> <Link> October 2019 </Link>{" "}
+      <div className="newsletter-links">
+        <Link>
+          {" "}
+          <div className="pic july-2020-news"></div> <p>July 2020</p>
+        </Link>{" "}
+        <Link>
+          {" "}
+          <div className="pic april-2020-news"></div> <p>April 2020</p>{" "}
+        </Link>{" "}
+        <Link>
+          {" "}
+          <div className="pic"></div> <p>January 2020</p>{" "}
+        </Link>{" "}
+        <Link>
+          <div className="pic"></div> <p className="news">October 2019</p>{" "}
+        </Link>{" "}
       </div>{" "}
       <div>
         <h3> Sign Up for the Newsletter </h3> <p> here is the form </p>{" "}
       </div>{" "}
     </div>{" "}
-    <div className="green-section">
-      <h3> Upcoming Events and Activities </h3>{" "}
-      <b> Currently no upcoming events! </b>{" "}
+    <div className="green-section events-sec">
+      <h3 className="title"> Upcoming Events and Activities </h3>{" "}
+      <h4> Currently no upcoming events! </h4>{" "}
     </div>{" "}
     <div>
       A SPECIAL SECTION TO POST ABOUT HOW AWESOME WE ARE WITH SOME COOL PICS{" "}
