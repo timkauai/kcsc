@@ -51,31 +51,37 @@ const IndexPage = () => (
       </div>
     </div>
     <div id="projects">
-      <h3> Our Projects </h3>{" "}
-      <div>
-        <div>
-          hotspot img <h3> KCSC HOTspot </h3>{" "}
-        </div>{" "}
-        <div>
-          Students Sharing Science img <h3> Students Sharing Science </h3>{" "}
-        </div>{" "}
-        <div>
-          Climate Connect img <h3> Climate Connect </h3>{" "}
-        </div>{" "}
-        <div>
-          Citizen Science Projects img <h3> Citizen Science Projects </h3>{" "}
-        </div>{" "}
-        <div>
-          PALS img <h3> Professionals And LearnerS </h3>{" "}
-        </div>{" "}
+      <h3 className="title"> Our Projects </h3>
+      <div className="projects-grid">
+        <Link to="/hotspot" className="grid">
+          <div className="pic hotspot-pic"></div>
+          <h3> KCSC HOTspot </h3>
+        </Link>
+        <Link to="/students-sharing-science" className="grid">
+          <div className="pic SSS-pic"></div>{" "}
+          <h3> Students Sharing Science </h3> <div className="inner"></div>
+        </Link>
+        <Link to="/climate-connect" className="grid">
+          <div className="pic CC-pic"></div> <h3> Climate Connect </h3>{" "}
+        </Link>{" "}
+        <Link to="/citzen-science-project" className="grid">
+          <div className="pic CSP-pic"></div>{" "}
+          <h3> Citizen Science Projects </h3>{" "}
+        </Link>{" "}
+        <Link to="/professionals-and-learners" className="grid">
+          <div className="pic PALS-pic"></div>{" "}
+          <h3> Professionals And LearnerS </h3>{" "}
+        </Link>{" "}
       </div>{" "}
     </div>{" "}
     <div className="green-section">
-      <div> an image </div>{" "}
-      <h3> A Science Center Bringing Science & Community Together </h3>{" "}
+      <h3 className="title">
+        {" "}
+        A Science Center Bringing Science & Community Together{" "}
+      </h3>{" "}
     </div>{" "}
-    <div>
-      <h1> The Newsletter </h1> <h3> Past Issues </h3>{" "}
+    <div className="newsletter-section">
+      <h1 className="title"> The Newsletter </h1> <h3> Past Issues </h3>{" "}
       <div>
         <Link> July 2020 </Link> <Link> April 2020 </Link>{" "}
         <Link> January 2020 </Link> <Link> October 2019 </Link>{" "}
