@@ -8,6 +8,9 @@ import SEO from "../components/seo"
 
 import "../styles/main.scss"
 
+const API_KEY =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vTYfgjmQVcBupdKIl9qeuSs-NNPYl5SaB1xlRnY005LPcsoHykZ-96MAseAt2rvbf9mkeC9EcCD1x7z/pub?gid=0&single=true&output=csv"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -30,7 +33,8 @@ const IndexPage = () => (
     </div>
     <div className="green-section split-2">
       <div className="newsletter">
-        <h3> sign up for the newsletter </h3> <p> Form goes here </p>
+        <h3> sign up for the newsletter </h3> <input type="text" />{" "}
+        <button>Submit</button>
       </div>
       <div className="socials">
         <h3> check us out on social media </h3>{" "}
@@ -117,8 +121,7 @@ const IndexPage = () => (
     <div className="donate-section">
       <div className="pic logo"></div> <p> GIVE US MONEY WE NEED IT / </p>{" "}
       <Link to="/donate"> donate </Link>{" "}
-    </div>{" "}
-    <div>An Idea. Add a scroll animation at the top to encourage scrolling</div>
+    </div>
   </Layout>
 )
 

@@ -11,6 +11,9 @@ const AboutPage = () => (
     <SEO title="Home" />
     <Nav />
     <h1> About page </h1>
+    <div>Talk about why</div>
+    <div>Talk about other links to look at</div>
+    <div>Documents</div>
   </Layout>
 )
 
