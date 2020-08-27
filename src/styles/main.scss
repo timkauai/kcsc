@@ -267,6 +267,33 @@ nav a {
   }
 }
 
+.empty-currently {
+  height: 60vh;
+  text-align: center;
+  padding-top: 25vh;
+}
+
+.partners {
+  p {
+    text-align: center;
+  }
+}
+
+.donate-section {
+  height: 30vh;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-bottom: 10vh;
+  .pic {
+    height: 20vh;
+    width: 20vw;
+  }
+  p {
+    font-family: "Cambay";
+    font-size: 20px;
+  }
+}
+
 // ALL OF THE PICTURE URLS
 .hotspot-pic {
   background-image: url("../imgs/undraw_broadcast_jhwx.svg");

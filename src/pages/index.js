@@ -107,15 +107,15 @@ const IndexPage = () => (
       <h3 className="title"> Upcoming Events and Activities </h3>{" "}
       <h4> Currently no upcoming events! </h4>{" "}
     </div>{" "}
-    <div>
+    <div className="empty-currently">
       A SPECIAL SECTION TO POST ABOUT HOW AWESOME WE ARE WITH SOME COOL PICS{" "}
     </div>{" "}
-    <div className="green-section">
-      <h3> Partners and Afflictions </h3>{" "}
+    <div className="green-section partners">
+      <h3 className="title"> Partners and Afflictions </h3>{" "}
       <p> Wow look at all of these people we have affiliations with </p>{" "}
     </div>{" "}
-    <div>
-      <div> logo </div> <p> GIVE US MONEY WE NEED IT / </p>{" "}
+    <div className="donate-section">
+      <div className="pic logo"></div> <p> GIVE US MONEY WE NEED IT / </p>{" "}
       <Link to="/donate"> donate </Link>{" "}
     </div>{" "}
     <div>An Idea. Add a scroll animation at the top to encourage scrolling</div>
