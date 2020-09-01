@@ -84,6 +84,7 @@ nav a {
     color: black;
     border: 3px solid #ba5429;
   }
+
   a {
     text-decoration: none;
   }
@@ -96,10 +97,12 @@ nav a {
     font-size: 30px;
     font-weight: bold;
   }
+
   .filled-btn {
     background-color: #ba5429;
     color: white;
   }
+
   .abv-fold-btns {
     margin-top: 10vh;
     display: grid;
@@ -140,24 +143,29 @@ nav a {
 
 .socials {
   border-left: 3px solid #000;
+
   h3 {
     font-size: 25px;
     text-align: center;
   }
+
   .soc-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
     a {
       text-align: center;
       text-decoration: none;
       color: #000;
       font-size: 20px;
+
       h3 {
         font-size: 20px;
       }
     }
   }
 }
+
 .newsletter {
   h3 {
     font-size: 25px;
@@ -171,16 +179,19 @@ nav a {
     width: 100%;
     margin: 0;
   }
+
   border: 5px solid #7ba734;
   padding: 5vh 5vw;
   text-align: center;
   border-radius: 30px;
   color: black;
   text-decoration: none;
+
   h3 {
     font-family: "cambay-bold";
     font-size: 25px;
   }
+
   background-color: #ffffff;
   transition: background-color 0.5s ease-in-out;
 }
@@ -212,17 +223,21 @@ nav a {
 .newsletter-section {
   max-width: 80vw;
   margin-left: 10vw;
+
   h1 {
     font-family: "PT Sans";
     font-size: 40;
   }
+
   h3 {
     font-size: 25px;
   }
+
   .newsletter-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 5vw;
+
     .pic {
       width: 100%;
       height: 20vh;
@@ -230,6 +245,7 @@ nav a {
       border-radius: 30px;
       margin: 0;
     }
+
     a {
       text-decoration: none;
       color: black;
@@ -238,17 +254,21 @@ nav a {
       text-align: center;
       margin-top: 5vh;
       cursor: pointer;
+
       p {
         transition: background-color 0.25s ease-in;
         padding: 10px;
         border: 3px solid #7ba734;
         border-radius: 20px;
+
         &:hover {
           background-color: #7ba734;
         }
       }
+
       .news {
         border: 3px solid #6c63ff;
+
         &:hover {
           background-color: #6c63ff;
         }
@@ -284,10 +304,12 @@ nav a {
   width: 50vw;
   margin-left: 25vw;
   margin-bottom: 10vh;
+
   .pic {
     height: 20vh;
     width: 20vw;
   }
+
   p {
     font-family: "Cambay";
     font-size: 20px;
@@ -313,4 +335,117 @@ nav a {
 
 .PALS-pic {
   background-image: url("../imgs/pals.webp");
+}
+
+.intern-pic-left {
+  background-color: lightcyan;
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  border-radius: 50%;
+  margin-right: 10vw;
+  margin-bottom: 20vh;
+}
+
+.intern-pic-right {
+  background-color: lightcyan;
+  width: 20vw;
+  height: 20vw;
+  float: right;
+  border-radius: 50%;
+  margin-right: 3vh;
+}
+
+.slanted-up-green {
+  margin-top: 25vh;
+  background: #7BA734;
+  margin-left: -11vw;
+  margin-right: -11vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  position: relative;
+  z-index: 1;
+  height: 40vh;
+
+  h3 {
+    font-family: 'Cambay';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5vh;
+    margin-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  p {
+    font-family: 'Cambay';
+    font-size: 20px;
+    text-align: center;
+    margin-right: 5vw;
+    padding-left: 5vw;
+  }
+}
+
+.slanted-up-green:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.slanted-up-green:before {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(2deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.line-of-3-pics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5vw;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  float: left;
+  margin-left: 5vw;
+
+  .pic {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: lightcoral;
+  }
+}
+
+.impact-statement {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+  h3 {
+    font-family: "Cambay";
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  p {
+    font-family: 'Cambay';
+    max-width: 70vw;
+    font-size: 20px;
+    margin-left: 10vw;
+    text-align: center;
+  }
 }
