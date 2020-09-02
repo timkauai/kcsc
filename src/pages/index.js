@@ -6,6 +6,7 @@ import Nav from "../modules/nav"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import { Link as Scroll } from "react-scroll"
 
 import "../styles/main.scss"
 
@@ -50,9 +51,15 @@ export default class IndexPage extends React.Component {
             community.{" "}
           </h3>{" "}
           <div className="abv-fold-btns">
-            <Link to="/#projects">
+            <Scroll
+              spy={true}
+              smooth="true"
+              offset={-70}
+              duration={500}
+              to="projects"
+            >
               <h3 className="filled-btn"> Check out our projects </h3>{" "}
-            </Link>{" "}
+            </Scroll>{" "}
             <Link to="/internship">
               <h3 className="hollow-btn"> Apply to the internship </h3>{" "}
             </Link>{" "}
@@ -60,13 +67,14 @@ export default class IndexPage extends React.Component {
         </div>{" "}
         <div className="green-section split-2">
           <div className="newsletter">
-            <h3> sign up for the newsletter </h3>{" "}
+            <h3> sign up for the newsletter </h3> <b>email</b>
             <form onSubmit={this.handleSubmit}>
               <input
                 type="text"
                 value={this.state.email}
                 onChange={this.handleInputChange}
                 name="email"
+                placeholder="youremail@email.com"
               />{" "}
               <button type="submit"> Submit </button>{" "}
             </form>{" "}
@@ -74,16 +82,16 @@ export default class IndexPage extends React.Component {
           <div className="socials">
             <h3> check us out on social media </h3>{" "}
             <div className="soc-links">
-              <a href="">
+              <a href="https://www.instagram.com/kauaicsc">
                 <h3> insta </h3>{" "}
               </a>{" "}
-              <a href="">
+              <a href="https://www.facebook.com/kauaicsc">
                 <h3> facebook </h3>{" "}
               </a>{" "}
-              <a href="">
+              <a href="https://twitter.com/kauaicsc">
                 <h3> twitter </h3>{" "}
               </a>{" "}
-              <a href="">
+              <a href="https://www.linkedin.com/company/64640520/admin/">
                 <h3> LinkedIn </h3>{" "}
               </a>{" "}
             </div>{" "}
@@ -92,27 +100,28 @@ export default class IndexPage extends React.Component {
         <div id="projects">
           <h3 className="title"> Our Projects </h3>{" "}
           <div className="projects-grid">
-            <Link to="/hotspot" className="grid">
+            <Link to="/projects/HOTspot" className="grid">
               <div className="pic hotspot-pic"> </div> <h3> KCSC HOTspot </h3>{" "}
             </Link>{" "}
-            <Link to="/students-sharing-science" className="grid">
+            <Link to="/projects/sharing-science-programs" className="grid">
               <div className="pic SSS-pic"> </div>{" "}
               <h3> Students Sharing Science </h3> <div className="inner"></div>
             </Link>{" "}
-            <Link to="/climate-connect" className="grid">
+            <Link to="/projects/climate-connect" className="grid">
               <div className="pic CC-pic"> </div> <h3> Climate Connect </h3>{" "}
             </Link>{" "}
-            <Link to="/citzen-science-project" className="grid">
+            <Link to="/projects/citizen-science-projects" className="grid">
               <div className="pic CSP-pic"> </div>{" "}
               <h3> Citizen Science Projects </h3>{" "}
             </Link>{" "}
-            <Link to="/professionals-and-learners" className="grid">
+            <Link to="/projects/pals" className="grid">
               <div className="pic PALS-pic"> </div>{" "}
               <h3> Professionals And LearnerS </h3>{" "}
             </Link>{" "}
           </div>{" "}
         </div>{" "}
         <div className="green-section">
+          <div className=""></div>
           <h3 className="title">
             {" "}
             A Science Center Bringing Science & Community Together{" "}
@@ -138,7 +147,19 @@ export default class IndexPage extends React.Component {
             </Link>{" "}
           </div>{" "}
           <div>
-            <h3> Sign Up for the Newsletter </h3> <p> here is the form </p>{" "}
+            <h3> Sign Up for the Newsletter </h3>{" "}
+            <div className="newsletter bottom-10">
+              <form onSubmit={this.handleSubmit}>
+                <input
+                  type="text"
+                  value={this.state.email}
+                  onChange={this.handleInputChange}
+                  name="email"
+                  placeholder="youremail@email.com"
+                />{" "}
+                <button type="submit"> Submit </button>{" "}
+              </form>
+            </div>{" "}
           </div>{" "}
         </div>{" "}
         <div className="green-section events-sec">
