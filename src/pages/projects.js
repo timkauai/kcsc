@@ -17,8 +17,6 @@ const ProjectsPage = () => (
         because every career has an element of science. We work on projects to
         help grow science literacy on Kauai.
       </h3>
-      <Link>Check out the projects</Link>
-      <Link>How you can help</Link>
     </div>
     <div id="projects">
       <h3 className="title"> Our Projects </h3>{" "}
