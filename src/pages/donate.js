@@ -10,7 +10,8 @@ const DonatePage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <h1> Donate </h1>{" "}
+    <h1> Donate </h1>
+    <h3>This page isn't quite ready yet...</h3>
   </Layout>
 )
 

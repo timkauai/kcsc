@@ -7,7 +7,9 @@ const Nav = () => (
   <nav>
     <h1 className="main-logo">
       {" "}
-      <Link to="/">Logo</Link>
+      <Link to="/">
+        <div className="kcsc-logo"></div>
+      </Link>
     </h1>
     <div className="alternate-links">
       <h3>

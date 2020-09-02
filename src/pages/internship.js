@@ -54,6 +54,23 @@ const InternshipPage = () => (
         build your resume and enhance your job and college applications
       </p>
     </div>
+    <p>
+      what you will be doing hotspot (link) sharing science (link) climate
+      connect (link) Help us bring KCSC HOTspot, a mobile WIFI hotspot,
+      Makerspace, STEAM** resource to West Kauai. where: Virtually & In
+      Accordance with Social Distancing Guidelines
+    </p>
+    <p>
+      Be part of selecting and leading maker & STEAM activities for the KCSC
+      HOTspot. Help us develop the Neighborhood Hubs in West Kauai from Kekaha
+      to Eleele. Help support students, teachers and parents to support distance
+      learning and provide fun science related activities. Add new skills or
+      build on what you already know related to CAD software, laser cutting, 3D
+      printing, coding, climate science, drones, the natural world around us and
+      all kinds of maker tools and activities. Practice your communication and
+      teaching skills with other students. Receive training from Carnegie
+      Science Center FAB Lab professionals and share your skills.
+    </p>
   </Layout>
 )
 

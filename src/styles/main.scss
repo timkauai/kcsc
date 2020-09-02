@@ -449,3 +449,35 @@ nav a {
     text-align: center;
   }
 }
+
+.section {
+  height: 40vh;
+
+  h3 {
+    font-family: 'Cambay';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5vh;
+    margin-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  p {
+    font-family: 'Cambay';
+    font-size: 20px;
+    text-align: center;
+    margin-right: 5vw;
+    padding-left: 5vw;
+  }
+}
+
+.kcsc-logo {
+  width: 10vw;
+  height: 10vh;
+  margin: 2vh 2vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url('../imgs/logo.jpg');
+}

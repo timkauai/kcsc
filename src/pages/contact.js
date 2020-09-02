@@ -10,7 +10,10 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <h1> Contact </h1>{" "}
+    <h1> Contact </h1>
+    <h3>either fill out the form, or email us at info@kauaicsc.org</h3>
+    <div>Here is an image</div>
+    <div>and here is a form</div>
   </Layout>
 )
 
