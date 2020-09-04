@@ -120,9 +120,9 @@ export default class IndexPage extends React.Component {
             </Link>{" "}
           </div>{" "}
         </div>{" "}
-        <div className="green-section">
-          <div className=""></div>
-          <h3 className="title">
+        <div className="green-section motto-sec">
+          <div className="motto-img"></div>
+          <h3 className="motto title">
             {" "}
             A Science Center Bringing Science & Community Together{" "}
           </h3>{" "}

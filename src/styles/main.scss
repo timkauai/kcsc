@@ -537,3 +537,59 @@ nav a {
     background-color: white;
   }
 }
+
+.motto-img {
+  height: 14vw;
+  width: 27.7vw;
+  background-color: lightgray;
+  border-radius: 2.2vw;
+}
+
+.motto-sec {
+  max-width: 90vw;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-column-gap: 4vw;
+  align-items: center;
+}
+
+.intern-header {
+  margin-top: 10vh;
+  h1 {
+    font-family: "PT Sans";
+    font-size: 40px;
+    width: 50vw;
+    text-align: right;
+  }
+  h3 {
+    font-size: 25px;
+    width: 45vw;
+    text-align: right;
+  }
+  a {
+    font-family: "Cambay";
+    background-color: #ba5429;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1vh 5vw;
+    width: max-content;
+  }
+
+  .btns {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25vw;
+    max-width: 80vw;
+    margin-left: 10vw;
+  }
+
+  .internship-pics {
+    background-color: lightcoral;
+    width: 20vw;
+    height: 20vw;
+  }
+}
