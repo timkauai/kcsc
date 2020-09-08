@@ -132,21 +132,21 @@ export default class IndexPage extends React.Component {
           <div className="newsletter-links">
             <Link>
               {" "}
-              <div className="pic july-2020-news"> </div> <p>July 2020</p>
+              <p>July 2020</p>
             </Link>{" "}
             <Link>
               {" "}
-              <div className="pic april-2020-news"> </div> <p>April 2020</p>{" "}
+              <p>April 2020</p>{" "}
             </Link>{" "}
             <Link>
               {" "}
-              <div className="pic"> </div> <p>January 2020</p>{" "}
+              <p>January 2020</p>{" "}
             </Link>{" "}
             <Link>
-              <div className="pic"> </div> <p className="news">October 2019</p>{" "}
+              <p className="news">October 2019</p>{" "}
             </Link>{" "}
           </div>{" "}
-          <div>
+          <div className="signup-newsletter">
             <h3> Sign Up for the Newsletter </h3>{" "}
             <div className="newsletter bottom-10">
               <form onSubmit={this.handleSubmit}>
@@ -174,8 +174,16 @@ export default class IndexPage extends React.Component {
           <p> Wow look at all of these people we have affiliations with </p>{" "}
         </div>{" "}
         <div className="donate-section">
-          <div className="pic logo"> </div> <p> GIVE US MONEY WE NEED IT / </p>{" "}
-          <Link to="/donate"> donate </Link>{" "}
+          <div className="kcsc-logo"> </div>{" "}
+          <p>
+            {" "}
+            This copy needs some work: We are working to make West Side of Kauai
+            have more Science LIteracey tax deductible, lalalala{" "}
+          </p>{" "}
+          <Link className="filled-btn" to="/donate">
+            {" "}
+            donate{" "}
+          </Link>{" "}
         </div>{" "}
       </Layout>
     )

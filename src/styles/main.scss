@@ -261,6 +261,7 @@ nav a {
 .newsletter-section {
   max-width: 80vw;
   margin-left: 10vw;
+  margin-top: 10vh;
 
   h1 {
     font-family: "PT Sans";
@@ -268,7 +269,7 @@ nav a {
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .newsletter-links {
@@ -539,10 +540,15 @@ nav a {
 }
 
 .motto-img {
-  height: 14vw;
-  width: 27.7vw;
+  height: 20vw;
+  width: 47.7vw;
   background-color: lightgray;
   border-radius: 2.2vw;
+  background-image: url("../imgs/kcsc-img-2.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .motto-sec {
@@ -591,5 +597,45 @@ nav a {
     background-color: lightcoral;
     width: 20vw;
     height: 20vw;
+  }
+}
+
+.signup-newsletter {
+  display: grid;
+  grid-template-columns: 4fr 7fr;
+  align-items: baseline;
+  margin-top: 10vh;
+}
+
+.donate-section {
+  max-width: 60vw;
+  margin-left: 20vw;
+  display: grid;
+  margin-top: 15vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "box1 box2" "box1 box3";
+  .kcsc-logo {
+    grid-area: box1;
+    margin: auto 0;
+  }
+  p {
+    grid-area: box2;
+  }
+  a {
+    grid-area: box3;
+
+    background-color: #ba5429;
+    text-align: center;
+    border-radius: 40px;
+    padding: 5px 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    width: max-content;
+    font-family: "Cambay";
+    height: max-content;
+    margin: 0 auto;
+    margin-top: 2vh;
   }
 }
