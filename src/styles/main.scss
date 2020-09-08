@@ -560,17 +560,18 @@ nav a {
 }
 
 .intern-header {
-  margin-top: 10vh;
+  margin-top: 20vh;
   h1 {
     font-family: "PT Sans";
     font-size: 40px;
-    width: 50vw;
+    width: 55vw;
     text-align: right;
   }
   h3 {
     font-size: 25px;
     width: 45vw;
     text-align: right;
+    margin-left: 5vw;
   }
   a {
     font-family: "Cambay";
@@ -585,7 +586,7 @@ nav a {
   }
 
   .btns {
-    margin-top: 10vh;
+    margin-top: 20vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 25vw;
@@ -597,6 +598,20 @@ nav a {
     background-color: lightcoral;
     width: 20vw;
     height: 20vw;
+  }
+
+  .intern-pic {
+    width: 25vw;
+    height: 25vw;
+    background-color: #000;
+    float: right;
+    margin-top: -35vh;
+    margin-right: 10vw;
+    border-radius: 50%;
+    background-image: url("../imgs/internship.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   }
 }
 

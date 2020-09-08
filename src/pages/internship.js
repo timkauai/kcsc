@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import Nav from "../modules/nav"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import { Link as Scroll } from "react-scroll"
 
 const InternshipPage = () => (
   <Layout>
@@ -16,8 +16,11 @@ const InternshipPage = () => (
         An Open-Ended internship for you to create content with KCSC and have an
         impact in the Kauai community
       </h3>
+      <div className="intern-pic"></div>
       <div className="btns">
-        <Link to="/internship#loc">learn more</Link>
+        <Scroll spy={true} smooth="true" offset={-70} duration={500} to="loc">
+          learn more
+        </Scroll>
         <Link to="/apply">apply to the internship</Link>
       </div>
     </div>
