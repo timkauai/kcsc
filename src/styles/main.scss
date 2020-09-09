@@ -179,6 +179,7 @@ nav a {
     font-size: 25px;
     text-align: center;
   }
+
   input {
     width: 25vw;
     height: 3vh;
@@ -522,8 +523,7 @@ nav a {
   margin-top: -2vh;
 }
 
-.kcsc-img-1 {
-}
+.kcsc-img-1 {}
 
 .right {
   float: right;
@@ -531,9 +531,11 @@ nav a {
 
 .bottom-10 {
   margin-bottom: 10vh;
+
   input {
     background-color: white;
   }
+
   button {
     background-color: white;
   }
@@ -559,20 +561,23 @@ nav a {
   align-items: center;
 }
 
-.intern-header {
+.sub-pages-header {
   margin-top: 20vh;
+
   h1 {
     font-family: "PT Sans";
     font-size: 40px;
     width: 55vw;
     text-align: right;
   }
+
   h3 {
     font-size: 25px;
     width: 45vw;
     text-align: right;
     margin-left: 5vw;
   }
+
   a {
     font-family: "Cambay";
     background-color: #ba5429;
@@ -583,6 +588,8 @@ nav a {
     font-weight: bold;
     padding: 1vh 5vw;
     width: max-content;
+    font-weight: 100;
+    cursor: pointer;
   }
 
   .btns {
@@ -600,18 +607,24 @@ nav a {
     height: 20vw;
   }
 
-  .intern-pic {
+  .circle-pic {
     width: 25vw;
     height: 25vw;
-    background-color: #000;
     float: right;
     margin-top: -35vh;
     margin-right: 10vw;
     border-radius: 50%;
-    background-image: url("../imgs/internship.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+  }
+
+  .intern {
+    background-image: url("../imgs/internship.jpg");
+  }
+
+  .about {
+    background-image: url('../imgs/undraw_science_fqhl.svg');
   }
 }
 
@@ -629,14 +642,17 @@ nav a {
   margin-top: 15vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "box1 box2" "box1 box3";
+  grid-template-areas: "box1 box2""box1 box3";
+
   .kcsc-logo {
     grid-area: box1;
     margin: auto 0;
   }
+
   p {
     grid-area: box2;
   }
+
   a {
     grid-area: box3;
 
@@ -652,5 +668,21 @@ nav a {
     height: max-content;
     margin: 0 auto;
     margin-top: 2vh;
+  }
+}
+
+.projects-header {
+  font-family: "Cambay";
+  font-weight: 100;
+  margin: 5vh 10vw;
+
+  h1 {}
+
+  h3 {
+    margin-top: -7vh;
+    float: right;
+    width: 50vw;
+    font-size: 22.5px;
+    text-align: right;
   }
 }

@@ -10,13 +10,13 @@ const InternshipPage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <div className="intern-header">
+    <div className="sub-pages-header">
       <h1>the KCSC Internship</h1>
       <h3>
         An Open-Ended internship for you to create content with KCSC and have an
         impact in the Kauai community
       </h3>
-      <div className="intern-pic"></div>
+      <div className="intern circle-pic"></div>
       <div className="btns">
         <Scroll spy={true} smooth="true" offset={-70} duration={500} to="loc">
           learn more

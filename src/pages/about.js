@@ -3,21 +3,29 @@ import { Link } from "gatsby"
 
 import Nav from "../modules/nav"
 import Layout from "../components/layout"
-import Image from "../components/image"
+import { Link as Scroll } from "react-scroll"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <div>
+    <div className="sub-pages-header">
       <h1>what we are about</h1>
       <h3>
         We are a community science center built to help grow science literacy,
         because every career has an element of science.
       </h3>
+
+      <div className="circle-pic about"></div>
+      <div className="btns">
+        <Scroll spy={true} smooth="true" offset={-70} duration={500} to="learn">
+          learn more
+        </Scroll>
+        <Link to="/apply">apply to the internship</Link>
+      </div>
     </div>
-    <div className="slanted-up-green">
+    <div id="learn" className="slanted-up-green">
       <div className="pic intern-pic-left"></div>
       <h3>Why support science literacy?</h3>
       <p>

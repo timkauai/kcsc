@@ -10,7 +10,7 @@ const ProjectsPage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <div className="above-fold">
+    <div className="projects-header">
       <h1>Projects</h1>
       <h3>
         We a community science center built to help grow science literacy,
@@ -19,7 +19,6 @@ const ProjectsPage = () => (
       </h3>
     </div>
     <div id="projects">
-      <h3 className="title"> Our Projects </h3>{" "}
       <div className="projects-grid">
         <Link to="/hotspot" className="grid">
           <div className="pic hotspot-pic"> </div> <h3> KCSC HOTspot </h3>{" "}
