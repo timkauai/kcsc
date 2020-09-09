@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import axios from "axios"
 
@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { Link as Scroll } from "react-scroll"
+import Slideshow from "../modules/slideshow"
 
 import "../styles/main.scss"
 
@@ -37,7 +38,6 @@ export default class IndexPage extends React.Component {
     })
     console.log(res)
   }
-
   render() {
     return (
       <Layout>
@@ -171,8 +171,8 @@ export default class IndexPage extends React.Component {
         </div>{" "}
         <div className="green-section partners">
           <h3 className="title"> Partners and Afflictions </h3>{" "}
-          <p> Wow look at all of these people we have affiliations with </p>{" "}
-        </div>{" "}
+          <Slideshow> </Slideshow>
+        </div>
         <div className="donate-section">
           <div className="kcsc-logo"> </div>{" "}
           <p>

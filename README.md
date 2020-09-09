@@ -5,3 +5,7 @@ A site for Kauai Community Science Center, as part of my internship with them! T
 ## If you are a developer, dont forget to run `npm install`
 
 ### Kauai's Only Science Center!!
+
+Things to add later on:
+[ ] Cool Transitions
+[ ] Shop

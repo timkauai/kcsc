@@ -523,7 +523,8 @@ nav a {
   margin-top: -2vh;
 }
 
-.kcsc-img-1 {}
+.kcsc-img-1 {
+}
 
 .right {
   float: right;
@@ -624,7 +625,7 @@ nav a {
   }
 
   .about {
-    background-image: url('../imgs/undraw_science_fqhl.svg');
+    background-image: url("../imgs/undraw_science_fqhl.svg");
   }
 }
 
@@ -642,7 +643,7 @@ nav a {
   margin-top: 15vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "box1 box2""box1 box3";
+  grid-template-areas: "box1 box2" "box1 box3";
 
   .kcsc-logo {
     grid-area: box1;
@@ -676,7 +677,8 @@ nav a {
   font-weight: 100;
   margin: 5vh 10vw;
 
-  h1 {}
+  h1 {
+  }
 
   h3 {
     margin-top: -7vh;
@@ -685,4 +687,24 @@ nav a {
     font-size: 22.5px;
     text-align: right;
   }
+}
+
+.partners-slideshow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+}
+
+footer {
+  margin-left: -10vw;
+  margin-right: -10vw;
+  margin-bottom: -10vh;
+  padding: 0 10vw 10vh 10vw;
+  background-color: #7ba734;
 }
