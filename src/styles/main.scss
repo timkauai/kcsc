@@ -408,8 +408,8 @@ nav a {
 
 .intern-pic-left {
   background-color: lightcyan;
-  width: 25vw;
-  height: 25vw;
+  width: 20vw;
+  height: 20vw;
   float: left;
   border-radius: 50%;
   margin-right: 10vw;
@@ -423,10 +423,11 @@ nav a {
   float: right;
   border-radius: 50%;
   margin-right: 3vh;
+  margin-left: 10vw;
 }
 
 .slanted-up-green {
-  margin-top: 25vh;
+  margin-top: 15vh;
   background: #7ba734;
   margin-left: -11vw;
   margin-right: -11vw;
@@ -435,6 +436,7 @@ nav a {
   position: relative;
   z-index: 1;
   height: 40vh;
+  padding-top: 2vh;
 
   h3 {
     font-family: "Cambay";
@@ -520,6 +522,7 @@ nav a {
 }
 
 .section {
+  margin-top: 15vh;
   height: 40vh;
 
   h3 {
@@ -539,6 +542,19 @@ nav a {
     margin-right: 5vw;
     padding-left: 5vw;
   }
+}
+
+.last-sec {
+  margin-bottom: 10vh;
+
+  p {
+    margin-top: 10vh;
+    padding-top: 15vh;
+  }
+}
+
+.slanted-first {
+  margin-top: 25vh;
 }
 
 .kcsc-logo {
