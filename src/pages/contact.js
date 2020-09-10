@@ -10,10 +10,34 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Home" />
     <Nav />
-    <h1> Contact </h1>
-    <h3>either fill out the form, or email us at info@kauaicsc.org</h3>
-    <div>Here is an image</div>
-    <div>and here is a form</div>
+    <div className="contact-page">
+      <div className="contact-form">
+        <form>
+          <h5>your name</h5>
+          <input
+            className="name-input text-input"
+            placeholder="Johnnie Appleseed"
+            type="text"
+          />
+          <h5>your email (so we can get back to you)</h5>
+          <input
+            placeholder="john@appleseed.com"
+            className="email-input text-input"
+            type="text"
+          />
+          <h5>your message</h5>
+          <input
+            placeholder="I love Kauai Community Science Center"
+            type="text"
+            className="message-input text-input"
+          />
+          <input type="submit" value="sent message" />
+        </form>
+      </div>
+      <h1> Contact </h1>
+      <h3>either fill out the form, or email us at info@kauaicsc.org</h3>
+      <div className="contact-img pic-no-s"></div>
+    </div>
   </Layout>
 )
 
