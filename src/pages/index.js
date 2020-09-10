@@ -171,7 +171,19 @@ export default class IndexPage extends React.Component {
         </div>{" "}
         <div className="green-section partners">
           <h3 className="title"> Partners and Afflictions </h3>{" "}
-          <Slideshow> </Slideshow>
+          <div className="imgs">
+            <div className="partner1"></div>
+            <div className="partner2"></div>
+            <div className="partner3"></div>
+            <div className="partner4"></div>
+            <div className="partner5"></div>
+            <div className="partner6"></div>
+            <div className="partner7"></div>
+            <div className="partner8"></div>
+            <div className="partner9"></div>
+            <div className="partner10"></div>
+            <div className="partner11"></div>
+          </div>
         </div>
         <div className="donate-section">
           <div className="kcsc-logo"> </div>{" "}

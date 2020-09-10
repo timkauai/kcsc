@@ -337,6 +337,35 @@ nav a {
   p {
     text-align: center;
   }
+
+  .imgs {
+    max-width: 80vw;
+    height: 40vh;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5vh 5vh;
+
+    div {
+      background-color: white;
+      height: 100%;
+      width: 100%;
+    }
+
+
+    @for $i from 1 through 11 {
+      .partner#{$i} {
+        padding: 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-image: url('../imgs/partner#{$i}.webp');
+      }
+    }
+
+  }
 }
 
 .donate-section {
