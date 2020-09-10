@@ -15,7 +15,7 @@ const AboutPage = () => (
       <h3>
         We are a community science center built to help grow science literacy,
         because every career has an element of science.{" "}
-      </h3>
+      </h3>{" "}
       <div className="circle-pic about"> </div>{" "}
       <div className="btns">
         <Scroll spy={true} smooth="true" offset={-70} duration={500} to="learn">
@@ -59,7 +59,7 @@ const AboutPage = () => (
         for other students, the community and visitors.{" "}
       </p>{" "}
     </div>{" "}
-    <div className="section last-sec">
+    <div className="section last-sec only-p">
       <div className="pic intern-pic-right"> </div>{" "}
       <p>
         KCSC is working to build on the successes and find new ways to ensure

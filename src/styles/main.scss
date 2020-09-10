@@ -485,31 +485,33 @@ nav a {
   z-index: -1;
 }
 
-.line-of-3-pics {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 5vw;
-  margin-top: 15vh;
-  margin-bottom: 10vh;
-  float: left;
-  margin-left: 5vw;
-
-  .pic {
-    width: 20vw;
-    height: 20vw;
-    border-radius: 50%;
-    background-color: lightcoral;
-  }
-}
-
 .impact-statement {
-  margin-top: 10vh;
+  margin-top: 20vh;
   margin-bottom: 10vh;
+
+  .line-of-3-pics {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    float: left;
+    margin-left: 10vw;
+
+    .pic {
+      width: 15vw;
+      height: 15vw;
+      border-radius: 50%;
+      background-color: lightcoral;
+    }
+  }
 
   h3 {
     font-family: "Cambay";
     font-weight: bold;
     font-size: 25px;
+    text-align: center;
   }
 
   p {
@@ -542,11 +544,17 @@ nav a {
     margin-right: 5vw;
     padding-left: 5vw;
   }
+
+  a {
+    color: #06007e;
+  }
 }
 
 .last-sec {
-  margin-bottom: 10vh;
+  margin-bottom: 20vh;
+}
 
+.only-p {
   p {
     margin-top: 10vh;
     padding-top: 15vh;
