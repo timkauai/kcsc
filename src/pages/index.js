@@ -166,8 +166,35 @@ export default class IndexPage extends React.Component {
           <h3 className="title"> Upcoming Events and Activities </h3>{" "}
           <h4> Currently no upcoming events! </h4>{" "}
         </div>{" "}
-        <div className="empty-currently">
-          A SPECIAL SECTION TO POST ABOUT HOW AWESOME WE ARE WITH SOME COOL PICS{" "}
+        <div className="testimonials">
+          <h3 className="title">Testimonials</h3>
+          <div className="testa">
+            <div></div>
+            <h3>James</h3>
+            <h2>
+              "Standing there, watching these kids learn how to do multivariable
+              calculous I could literally see the difference it was making in
+              them"
+            </h2>
+          </div>
+          <div className="testa">
+            {" "}
+            <div></div>
+            <h3>Corey</h3>
+            <h2>
+              "A kid proved the string theory in front of me, and I didn't even
+              need to help him"
+            </h2>
+          </div>
+          <div className="testa">
+            {" "}
+            <div></div>
+            <h3>Max</h3>
+            <h2>
+              "A 5th grader just developed a wormhole to the future, and I'm not
+              even mad..."
+            </h2>
+          </div>
         </div>{" "}
         <div className="green-section partners">
           <h3 className="title"> Partners and Afflictions </h3>{" "}

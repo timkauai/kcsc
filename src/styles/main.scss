@@ -801,3 +801,35 @@ footer {
   border-radius: 15px;
   cursor: pointer;
 }
+
+.testimonials {
+  padding: 10vh 0;
+}
+
+.testa {
+  margin-bottom: 40px;
+  width: 70vw;
+  margin-left: 15vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr;
+  gap: 5vh;
+  justify-content: space-around;
+  align-items: center;
+
+  div {
+    width: 10vw;
+    height: 10vw;
+    background-color: lightgreen;
+    border-radius: 50%;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-weight: 100;
+  }
+}
