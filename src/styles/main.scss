@@ -897,10 +897,47 @@ footer {
     h5 {
       font-family: "PT Sans";
       font-size: 25px;
+      margin-bottom: 3vh;
+      margin-top: 3vh;
     }
 
     .text-input {
       width: 40vw;
+      padding: 5px 10px;
+      border: #000 solid 2px;
+      font-family: "Cambay";
+      font-size: 20px;
+      font-weight: 100;
+    }
+
+    .text-input::placeholder {
+      font-family: "Cambay";
+      font-weight: 50;
+      font-size: 20px;
+    }
+
+    .name-input {
+      height: 4.5vh;
+    }
+
+    .email-input {
+      height: 4.5vh;
+    }
+
+    .submit-btn-contact {
+      margin-top: 3vh;
+      float: right;
+      margin-right: 10vw;
+      background-color: #ba5429;
+      color: white;
+      font-family: "Cambay";
+      font-weight: bold;
+      border: none;
+      height: 6vh;
+      width: max-content;
+      padding: 5px 20px;
+      border-radius: 30px;
+      font-size: 20px;
     }
   }
 }

@@ -26,12 +26,18 @@ const ContactPage = () => (
             type="text"
           />
           <h5>your message</h5>
-          <input
+          <textarea
             placeholder="I love Kauai Community Science Center"
             type="text"
+            rows="3"
             className="message-input text-input"
+          ></textarea>
+          <br />
+          <input
+            className="submit-btn-contact"
+            type="submit"
+            value="send message"
           />
-          <input type="submit" value="sent message" />
         </form>
       </div>
       <h1> Contact </h1>
