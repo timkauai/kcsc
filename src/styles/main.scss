@@ -567,6 +567,14 @@ nav a {
   }
 }
 
+.larger-p {
+  height: max-content;
+
+  p {
+    padding-bottom: 5vh;
+  }
+}
+
 .slanted-first {
   margin-top: 25vh;
 }

@@ -11,16 +11,16 @@ const ProjectsPage = () => (
     <SEO title="Home" />
     <Nav />
     <div className="projects-header">
-      <h1>Projects</h1>
+      <h1> Projects </h1>{" "}
       <h3>
         We a community science center built to help grow science literacy,
-        because every career has an element of science. We work on projects to
-        help grow science literacy on Kauai.
-      </h3>
-    </div>
+        because every career has an element of science.We work on projects to
+        help grow science literacy on Kauai.{" "}
+      </h3>{" "}
+    </div>{" "}
     <div id="projects">
       <div className="projects-grid">
-        <Link to="/hotspot" className="grid">
+        <Link to="/projects/HOTspot" className="grid">
           <div className="pic hotspot-pic"> </div> <h3> KCSC HOTspot </h3>{" "}
         </Link>{" "}
         <Link to="/students-sharing-science" className="grid">
