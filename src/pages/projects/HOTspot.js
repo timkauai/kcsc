@@ -60,22 +60,9 @@ const HOTspotPage = () => (
         HOTspot meet ups.
       </p>{" "}
     </div>{" "}
-    <div className="section last-sec">
-      <div className="pic intern-pic-left"> </div>{" "}
-      <h3> What your work at KCSC entails </h3>{" "}
-      <p>
-        You will be help bring the{" "}
-        <Link to="/projects/HOTspot">KCSC HOTspot</Link>, as mobile WIFI
-        hotshot, maker space and STEAM resource to west Kauai, as well as
-        helping us with our{" "}
-        <Link to="/projects/sharing-science-programs">
-          Sharing Science Program
-        </Link>{" "}
-        and <Link to="climate-connect"> Climate Connect Program. </Link>
-        As an intern you will be doing all of this both virtually and in person
-        (in accordance with social distancing guidelines)
-      </p>{" "}
-    </div>{" "}
+    <h3 className="questions-bottom">
+      Any Questions? <Link to="/contact">Contact us</Link>
+    </h3>
   </Layout>
 )
 

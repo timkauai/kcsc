@@ -23,18 +23,18 @@ const ProjectsPage = () => (
         <Link to="/projects/HOTspot" className="grid">
           <div className="pic hotspot-pic"> </div> <h3> KCSC HOTspot </h3>{" "}
         </Link>{" "}
-        <Link to="/students-sharing-science" className="grid">
+        <Link to="/projects/sharing-science-programs/" className="grid">
           <div className="pic SSS-pic"> </div>{" "}
           <h3> Students Sharing Science </h3> <div className="inner"></div>
         </Link>{" "}
-        <Link to="/climate-connect" className="grid">
+        <Link to="/projects/climate-connect" className="grid">
           <div className="pic CC-pic"> </div> <h3> Climate Connect </h3>{" "}
         </Link>{" "}
-        <Link to="/citzen-science-project" className="grid">
+        <Link to="/projects/citizen-science-projects" className="grid">
           <div className="pic CSP-pic"> </div>{" "}
           <h3> Citizen Science Projects </h3>{" "}
         </Link>{" "}
-        <Link to="/professionals-and-learners" className="grid">
+        <Link to="/projects/pals" className="grid">
           <div className="pic PALS-pic"> </div>{" "}
           <h3> Professionals And LearnerS </h3>{" "}
         </Link>{" "}
