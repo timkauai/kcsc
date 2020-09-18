@@ -33,9 +33,12 @@ export default class IndexPage extends React.Component {
   }
 
   postEmail = async emailInput => {
-    let res = await axios.post("http://localhost:3000/emails", {
-      email: emailInput,
-    })
+    let res = await axios.post(
+      "https://protected-atoll-55720.herokuapp.com/emails",
+      {
+        email: emailInput,
+      }
+    )
     console.log(res)
   }
   render() {
@@ -121,7 +124,7 @@ export default class IndexPage extends React.Component {
           </div>{" "}
         </div>{" "}
         <div className="green-section motto-sec">
-          <div className="motto-img"></div>
+          <div className="motto-img"> </div>{" "}
           <h3 className="motto title">
             {" "}
             A Science Center Bringing Science & Community Together{" "}
@@ -132,18 +135,18 @@ export default class IndexPage extends React.Component {
           <div className="newsletter-links">
             <Link>
               {" "}
-              <p>July 2020</p>
+              <p> July 2020 </p>{" "}
             </Link>{" "}
             <Link>
               {" "}
-              <p>April 2020</p>{" "}
+              <p> April 2020 </p>{" "}
             </Link>{" "}
             <Link>
               {" "}
-              <p>January 2020</p>{" "}
+              <p> January 2020 </p>{" "}
             </Link>{" "}
             <Link>
-              <p className="news">October 2019</p>{" "}
+              <p className="news"> October 2019 </p>{" "}
             </Link>{" "}
           </div>{" "}
           <div className="signup-newsletter">
@@ -158,7 +161,7 @@ export default class IndexPage extends React.Component {
                   placeholder="youremail@email.com"
                 />{" "}
                 <button type="submit"> Submit </button>{" "}
-              </form>
+              </form>{" "}
             </div>{" "}
           </div>{" "}
         </div>{" "}
@@ -167,51 +170,43 @@ export default class IndexPage extends React.Component {
           <h4> Currently no upcoming events! </h4>{" "}
         </div>{" "}
         <div className="testimonials">
-          <h3 className="title">Testimonials</h3>
+          <h3 className="title"> Testimonials </h3>{" "}
           <div className="testa">
-            <div></div>
-            <h3>James</h3>
+            <div> </div> <h3> James </h3>{" "}
             <h2>
               "Standing there, watching these kids learn how to do multivariable
               calculous I could literally see the difference it was making in
-              them"
-            </h2>
-          </div>
+              them "{" "}
+            </h2>{" "}
+          </div>{" "}
           <div className="testa">
             {" "}
-            <div></div>
-            <h3>Corey</h3>
+            <div> </div> <h3> Corey </h3>{" "}
             <h2>
               "A kid proved the string theory in front of me, and I didn't even
-              need to help him"
-            </h2>
-          </div>
+              need to help him "{" "}
+            </h2>{" "}
+          </div>{" "}
           <div className="testa">
             {" "}
-            <div></div>
-            <h3>Max</h3>
+            <div> </div> <h3> Max </h3>{" "}
             <h2>
               "A 5th grader just developed a wormhole to the future, and I'm not
-              even mad..."
-            </h2>
-          </div>
+              even mad..."{" "}
+            </h2>{" "}
+          </div>{" "}
         </div>{" "}
         <div className="green-section partners">
           <h3 className="title"> Partners and Afflictions </h3>{" "}
           <div className="imgs">
-            <div className="partner1"></div>
-            <div className="partner2"></div>
-            <div className="partner3"></div>
-            <div className="partner4"></div>
-            <div className="partner5"></div>
-            <div className="partner6"></div>
-            <div className="partner7"></div>
-            <div className="partner8"></div>
-            <div className="partner9"></div>
-            <div className="partner10"></div>
-            <div className="partner11"></div>
-          </div>
-        </div>
+            <div className="partner1"> </div> <div className="partner2"> </div>{" "}
+            <div className="partner3"> </div> <div className="partner4"> </div>{" "}
+            <div className="partner5"> </div> <div className="partner6"> </div>{" "}
+            <div className="partner7"> </div> <div className="partner8"> </div>{" "}
+            <div className="partner9"> </div> <div className="partner10"> </div>{" "}
+            <div className="partner11"> </div>{" "}
+          </div>{" "}
+        </div>{" "}
         <div className="donate-section">
           <div className="kcsc-logo"> </div>{" "}
           <p>
