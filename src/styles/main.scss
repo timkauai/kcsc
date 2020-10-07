@@ -107,11 +107,9 @@ nav a {
   }
 
   .abv-fold-btns {
-    margin-top: 10vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 75vw;
-    margin-left: 10vw;
+    width: 100vw;
   }
 }
 
@@ -966,4 +964,8 @@ footer {
     border-radius: 40px;
     margin-left: 5vw;
   }
+}
+
+.big-bottom-margin {
+  margin-bottom: 110vh;
 }
