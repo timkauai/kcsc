@@ -1,7 +1,0 @@
-TO-DO
-
-Mobile
-Newsletter page
-Calendar for upcoming events page
-    - Ablity to add event to ical or other calendars
-    - Linked to Sheets Sheet

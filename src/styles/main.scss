@@ -969,3 +969,79 @@ footer {
 .big-bottom-margin {
   margin-bottom: 110vh;
 }
+
+.giving-page {
+  .giving-title {
+    margin-left: -2vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+  }
+  
+  h1 {
+    width: 100vw;
+    font-family: PT Sans;
+    text-align: center;
+  }
+
+  .giving-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    .giving-containers {
+      width: 28vw;
+      height: 50vh;
+      padding: 2vw;
+      border-radius: 30px;
+      .copy {
+        height: 75%;
+      }
+      h3 {
+        margin-left: 30px;
+        font-size: 30px;
+        margin-top: 0px;
+      }
+      .btn {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-family: PT Sans;
+        font-weight: bold;
+        font-size: 21px;
+      }
+    }
+  }
+  .donation {
+    background-color:#7BA734;
+    svg {
+      float: left;
+      width: 50px;
+      height: 50px;
+      margin-right: 30px;
+    }
+
+ }
+ 
+ .volunteer {
+   background-color: #6c63ff;
+   svg {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+  }
+  }
+}
+
+.volunteer-container {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  padding: 30vh;
+  background-color: #6c63ff;
+  margin-left: -10vw;
+  padding-left: 11vw;
+  margin-right: -10vw;
+  padding-right: 11vw;
+}
+

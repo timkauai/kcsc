@@ -25,7 +25,7 @@ const Nav = () => (
         <Link to="/projects"> projects </Link>{" "}
       </h3>{" "}
       <h3 className="btn">
-        <Link to="/donate"> donate </Link>{" "}
+        <Link to="/giving"> Giving </Link>{" "}
       </h3>{" "}
     </div>{" "}
   </nav>
